@@ -1,0 +1,24 @@
+Question: #1 - Sort 10 schools around your house by distance:
+Use: insertion sort
+
+Question: #2 - eBay sorts listings by the current Bid amount:
+Use: radix or counting sort
+
+Question: #3 - Sort scores on ESPN
+Use: Quick sort
+
+Question: #4 - Massive database (can't fit all into memory) needs to sort through past year's user data
+Use: Merge Sort
+
+Question: #5 - Almost sorted Udemy review data needs to update and add 2 new reviews
+Use: Insertion Sort
+
+Question: #6 - Temperature Records for the past 50 years in Canada
+Use: radix or counting Sort		// For Integer Number
+Use: Quick sort if decimal places	// For Decimal Number
+
+Question: #7 - Large user name database needs to be sorted. Data is very random.
+Use: Quick sort
+
+Question: #8 - You want to teach sorting
+Use: Bubble sort / Selection sort

@@ -1,0 +1,44 @@
+document.getElementById("Message").innerHTML = "Please enter Number Of your Age.";
+
+function convert()
+{
+var
+	MyDiv = document.getElementById("Message"),
+	UserInput = document.getElementById("Age").value,
+	Age = parseInt(UserInput) + 10 ;
+	
+if (UserInput == "")
+{
+	MyDiv.innerHTML = "There's No Input.";
+}
+else if (isNaN(UserInput))
+{
+	MyDiv.innerHTML = "Please enter Number Only.";
+}
+else if (UserInput <= parseInt(0))
+{
+
+	MyDiv.innerHTML = "Is It Age by Negative Number Or Zero..!!";
+
+}
+else
+{
+	MyDiv.innerHTML = "your Age After 10 Years Is " + Age + " Years.";
+}	
+}
+
+/*
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project Of Js</title>    
+        <meta charset="UTF-8">
+	<div id = "Message"></div>
+	<script src ="Project.js"> </script>
+	<input type = "text" id = "Age">
+	<button onclick ="convert()">+10 To Your Age</button>
+    </head>
+    <body bgcolor= "">  
+    </body>
+</html>
+*/

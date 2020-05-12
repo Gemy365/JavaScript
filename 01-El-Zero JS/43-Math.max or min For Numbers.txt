@@ -1,0 +1,23 @@
+var
+
+High = Math.max(20 , 5 , 15 , 30 , 50 , 2),
+
+Low = Math.min(-80 , 50 , 35 , -100 , 70 , -29);
+
+document.write(High);
+
+document.write(Low);
+
+/*
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project Of Js</title>    
+        <meta charset="UTF-8">
+	<div id = "Message"></div>
+	<script src ="Project.js"> </script>
+    </head>
+    <body bgcolor= "">  
+    </body>
+</html>
+*/

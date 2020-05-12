@@ -1,0 +1,19 @@
+document.addEventListener("contextmenu", function(e) {
+
+	e.preventDefault();
+	console.log("You Can't Click On Right Click");
+});
+
+/*
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project Of Js</title>    
+        <meta charset="UTF-8">
+	<div id = "message"></div>
+	<script src ="Example.js"> </script>
+    </head>
+    <body bgcolor= "">  
+    </body>
+</html>
+*/

@@ -1,0 +1,30 @@
+var
+	Name = prompt("Enter Your Name");
+
+switch (Name)
+{
+	case "Gemy":
+		document.write("Hey Gemy");
+		break;
+
+	case "Mohamed":
+		document.write("Hey Mohamed");
+		break;
+
+	default:
+		document.write("Hey Dude");
+		break;
+}
+
+/*
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project Of Js</title>    
+        <meta charset="UTF-8">
+		<script src ="Project.js"> </script>
+    </head>
+    <body bgcolor= "">  
+    </body>
+</html>
+*/

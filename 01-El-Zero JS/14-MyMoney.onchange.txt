@@ -1,0 +1,30 @@
+document.getElementById("Message").innerHTML = "Please Enter Your Money.";
+var
+	MyInput = document.getElementById("Input"), 
+	MyDiv   = document.getElementById("Message"),
+	MyMoney = document.getElementById("Money");
+
+MyMoney.onchange = function ()
+{
+	MyDiv.innerHTML = "Your Money Is " + MyInput.value * MyMoney.value + " Egyptian Pounds.";
+}
+
+/*
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project Of Js</title>    
+        <meta charset="UTF-8">
+		<div id = "Message"></div>
+		<input type = "text" id = "Input">
+		<select id = "Money">
+		<option value = "18">Dollar</option>
+		<option value = "5" >Riyal</option>
+		<option value = "1" >Pound</option>
+		</select>
+		<script src ="Project.js"> </script>
+    </head>
+    <body bgcolor= "">  
+    </body>
+</html>
+*/

@@ -1,0 +1,32 @@
+var
+	Friends = [
+		"Gemy",
+		"Badr",
+		"Omar",
+		"Ali"
+		];
+
+console.log(Friends);
+
+console.log(Friends.length);
+
+Friends.splice(1, 2);  //Friends.splice(Index, How Many Items Wanna Delete ? , New Item );
+
+console.log(Friends);
+
+console.log(Friends.length);
+
+
+/*
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project Of Js</title>    
+        <meta charset="UTF-8">
+	<div id = "Message"></div>
+	<script src ="Project.js"> </script>
+    </head>
+    <body bgcolor= "">  
+    </body>
+</html>
+*/

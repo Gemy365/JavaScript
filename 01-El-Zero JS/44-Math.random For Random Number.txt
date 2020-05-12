@@ -1,0 +1,22 @@
+var
+
+High = Math.random();
+
+Number = 1000;
+
+document.write(Math.floor(High * Number));
+
+
+/*
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project Of Js</title>    
+        <meta charset="UTF-8">
+	<div id = "Message"></div>
+	<script src ="Project.js"> </script>
+    </head>
+    <body bgcolor= "">  
+    </body>
+</html>
+*/

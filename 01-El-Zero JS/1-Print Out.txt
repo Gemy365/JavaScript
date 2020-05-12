@@ -1,0 +1,26 @@
+//Old Way To Print Any Thing.
+
+document.getElementById("Message").innerHTML = "Old Way";
+
+//New Way To Print Any Thing.
+
+var
+	MyDiv = document.getElementById("Message1");
+
+MyDiv.innerHTML = "New Way";
+
+
+/*
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project Of Js</title>    
+        <meta charset="UTF-8">
+	<div id = "Message"></div><br>
+	<div id = "Message1"></div>
+	<script src ="Project.js"> </script>
+    </head>
+    <body bgcolor= "">  
+    </body>
+</html>
+*/

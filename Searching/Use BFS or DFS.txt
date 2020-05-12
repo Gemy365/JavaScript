@@ -1,0 +1,17 @@
+Question: If you know a solution is not far from the root of the tree:
+Use: BFS
+
+Question: If the tree is very deep and solutions are rare, 
+Use: BFS (DFS will take long time. )
+
+Question: If the tree is very wide:
+Use: DFS (BFS will need too much memory)
+
+Question: If solutions are frequent but located deep in the tree
+Use: DFS
+
+Question: determining whether a path exists between two nodes
+Use: DFS
+
+Question: Finding the shortest path
+Use: BFS

@@ -1,0 +1,28 @@
+var
+	MyName = "My Name Is MohAMed Gamal MOHAMED",
+
+//	ReplaceItem = MyName.replace("Mohamed", "Gemy");  Replace First Only "Mohamed" with "Gemy"
+
+//	ReplaceItem = MyName.replace(/Mohamed/g, "Gemy"); Replace All "Mohamed" with "Gemy"
+	
+//	ReplaceItem = MyName.replace(/Mohamed/i, "Gemy"); Replace First Only If Capital Or Small "Mohamed" with "Gemy"
+	
+	ReplaceItem = MyName.replace(/Mohamed/ig , "Gemy"); //Best Way [/OldValue/gi , "New Value"]
+	
+console.log(MyName);
+
+console.log(ReplaceItem);
+
+/*
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project Of Js</title>    
+        <meta charset="UTF-8">
+	<div id = "Message"></div>
+	<script src ="Project.js"> </script>
+    </head>
+    <body bgcolor= "">  
+    </body>
+</html>
+*/

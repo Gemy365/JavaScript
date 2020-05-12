@@ -1,0 +1,29 @@
+UserAge = prompt("Please Enter Your Age To Show The Content!");
+var
+	MyName = "Mohamed Gamal",
+	MyDiv = document.getElementById("Message");
+
+if(UserAge >= 18)
+{
+	MyDiv.innerHTML =
+	"<span style = 'color: red'> My Name Is: </span><span style = 'color: Blue'>" + MyName + "</span><br>";
+}
+else
+{
+	MyDiv.innerHTML = "Sorry Your Age Is Less Than 18" ;
+}
+
+
+/*
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project Of Js</title>    
+        <meta charset="UTF-8">
+	<div id = "Message"></div><br>
+	<script src ="Project.js"> </script>
+    </head>
+    <body bgcolor= "">  
+    </body>
+</html>
+*/

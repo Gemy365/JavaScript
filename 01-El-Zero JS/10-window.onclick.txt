@@ -1,0 +1,19 @@
+window.onclick = function()
+{
+alert("Welcome to My Site.");
+}
+
+
+/*
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project Of Js</title>    
+        <meta charset="UTF-8">
+	<div id = "Message">Click On this Page!</div>
+	<script src ="Project.js"> </script>
+    </head>
+    <body bgcolor= "">  
+    </body>
+</html>
+*/

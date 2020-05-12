@@ -1,0 +1,35 @@
+function generateSerial()
+{
+	var
+		Chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890",  //All Char And Numbers = 62 Len
+		
+		Length = "10",	//Length Of Generate Serial
+	
+		RandomSerial = "",	//Empty String To Store The Serial
+		i,
+		IndexNumber;
+		
+		for( i = 0 ; i <= Length ; i++)	//For Loop From 0 To Length 
+		{
+			IndexNumber = Math.floor(Math.random() * Chars.length);	//To Extract Number Of Index 
+			
+			RandomSerial += Chars.substring(IndexNumber , IndexNumber +1);   //Add & Store One String Every Time
+			
+		}
+	document.getElementById("serial").innerHTML = RandomSerial;
+}
+
+/*
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project Of Js</title>    
+        <meta charset="UTF-8">
+	<button onclick="generateSerial()">Generate</button>	
+	<div id = "serial"></div>
+	<script src ="Example.js"> </script>
+    </head>
+    <body bgcolor= "">  
+    </body>
+</html>
+*/

@@ -1,0 +1,31 @@
+var
+	Friends = [
+		"Gemy",
+		"Badr",
+		"Omar",
+		"Ali",
+		"Walid",
+		"Nabil"
+		];
+
+console.log(Friends);
+
+var
+	SearchItem = Friends.indexOf("Omar");  //Friends.indexOf(Item To Search) >> will get the Index
+	
+console.log(Friends[SearchItem]);	//Print Item Of Search By Index
+
+
+/*
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project Of Js</title>    
+        <meta charset="UTF-8">
+	<div id = "Message"></div>
+	<script src ="Project.js"> </script>
+    </head>
+    <body bgcolor= "">  
+    </body>
+</html>
+*/

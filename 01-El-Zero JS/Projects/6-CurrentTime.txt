@@ -1,0 +1,42 @@
+setInterval(function() { 
+		
+		var
+			Div = document.getElementById("clock"),
+			
+			Now = new Date(),			//Current Time
+
+			Hours = (Now.getHours() % 12), 		//Current Hours [12 Hours]
+		
+			Minutes = Now.getMinutes(),		//Current Minutes
+			
+			Seconds = Now.getSeconds();		//Current Seconds
+			
+		if (Hours < 10) 
+		{
+			Hours = "0" + Hours;
+		}
+		if (Minutes < 10) 
+		{
+			Minutes = "0" + Minutes;
+		}
+		if (Seconds < 10) 
+		{
+			Seconds = "0" + Seconds;
+		}
+
+		Div.innerHTML = Hours + ":" + Minutes + ":" + Seconds;
+}, 1000)
+
+/*
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project Of Js</title>    
+        <meta charset="UTF-8">
+	<div id = "clock"></div>
+	<script src ="Example.js"> </script>
+    </head>
+    <body bgcolor= "">  
+    </body>
+</html>
+*/

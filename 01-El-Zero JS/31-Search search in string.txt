@@ -1,0 +1,21 @@
+var
+	MyName = "Hi, My Name Is Mohamed Gamal Mohamed",
+
+	SearchItem = MyName.search("Gamal");  //MyName.search(Item To Search) >> will get the Index
+	
+console.log(SearchItem);	//Print Index
+
+
+/*
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project Of Js</title>    
+        <meta charset="UTF-8">
+	<div id = "Message"></div>
+	<script src ="Project.js"> </script>
+    </head>
+    <body bgcolor= "">  
+    </body>
+</html>
+*/

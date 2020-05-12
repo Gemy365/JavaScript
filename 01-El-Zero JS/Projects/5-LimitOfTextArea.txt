@@ -1,0 +1,32 @@
+var
+	TextArea    = document.getElementById("area"), 	//ID Of Text Area
+	Span  		= document.getElementById("span"); 	//ID Of Span
+
+TextArea.onkeyup = function() {		//onkeyup Function
+	
+	Span.textContent = 30 - this.value.length;	//[this = TextArea] 30 - length Of User Text
+	
+	if(Span.textContent < 0)
+	{
+		Span.style.color = "#f00";		//Color
+	}
+	else
+	{
+		Span.style.color = "#0ff";		//Other Color
+	}
+};
+
+/*
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project Of Js</title>    
+        <meta charset="UTF-8">
+	<textarea id = "area"></textarea>
+	Limit Of Chars: <span id ="span" style="color : #0ff">30</span>
+	<script src ="Example.js"> </script>
+    </head>
+    <body bgcolor= "">  
+    </body>
+</html>
+*/

@@ -1,0 +1,43 @@
+document.write("Note: Any Char [e] or [E] replace With [-]<br>");
+var
+	First = "Mohamed Gamal MohAmED",
+	Check = First.replace(/e/ig , "-");	//Any Char [e] or [E] replace With [-]
+document.write("Orignal:     " + First + "<br>" + "After:    " + Check + "<br><br>");
+
+document.write("Note: Any Char Not [m] or [M] replace With [0]<br>");
+var
+	First = "Mohamed Gamal MohAmED",
+	Check = First.replace(/[^M]/ig , "0");	//Any Char Not [m] or [M] replace With [0]
+document.write("Orignal:     " + First + "<br>" + "After:    " + Check + "<br><br>");
+
+document.write("Note: Any Char Not From [A] To [Z] replace With [+]<br>");
+var
+	First = "MoHaMed GaMal MoHAmED",
+	Check = First.replace(/[^A-Z]/g , "+");	//Any Char Not From [A] To [Z] replace With [+]
+document.write("Orignal:     " + First + "<br>" + "After:    " + Check + "<br><br>");
+
+document.write("Note: Any Number From [0] To [9] replace With [_]<br>");
+var
+	First = "5M071med G1mal M07AmED5",
+	Check = First.replace(/[0-9]/g , "_");	//Any Number From [0] To [9] replace With [_]
+document.write("Orignal:     " + First + "<br>" + "After:    " + Check + "<br><br>");
+
+document.write("Note: Any Char Not From [a-z] And [0-9] replace With [@]<br>");
+var
+	First = "5M071med G1mal M07AmED5",
+	Check = First.replace(/[^a-z0-9]/g , "@");	//Any Char Not From [a-z] And [0-9] replace With [@]
+document.write("Orignal:     " + First + "<br>" + "After:    " + Check + "<br>");
+
+/*
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project Of Js</title>    
+        <meta charset="UTF-8">
+	<div id = "Message"></div>
+	<script src ="Project.js"> </script>
+    </head>
+    <body bgcolor= "">  
+    </body>
+</html>
+*/

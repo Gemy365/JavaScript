@@ -1,0 +1,31 @@
+var
+	Friends = [
+		"Gemy",
+		"Badr",
+		"Omar",
+		"Ali",
+		"Walid",
+		"Nabil"
+		];
+
+console.log(Friends);
+
+var 
+	SliceOfArray = Friends.slice(2 , 5); // Friends.slice(Index Start , Index End);
+
+console.log(SliceOfArray);
+
+
+/*
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project Of Js</title>    
+        <meta charset="UTF-8">
+	<div id = "Message"></div>
+	<script src ="Project.js"> </script>
+    </head>
+    <body bgcolor= "">  
+    </body>
+</html>
+*/

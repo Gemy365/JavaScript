@@ -1,0 +1,32 @@
+var
+	ImgID = document.getElementById("MyImg"),
+	
+	Imgs = [
+		"2.jpeg",
+		"3.jpeg",
+		"4.jpeg",
+		"5.jpeg"
+		];
+
+ChangeImgs = setInterval(function() {
+		
+		RandIndex = Math.floor(Math.random() * Imgs.length);
+		
+		ImgID.src = Imgs[RandIndex];
+		
+	} , 700);
+
+/*
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project Of Js</title>    
+        <meta charset="UTF-8">
+	<img id ="MyImg" src = "1.jpeg"/>	
+	<div id = "Change"></div>
+	<script src ="Example.js"> </script>
+    </head>
+    <body bgcolor= "">  
+    </body>
+</html>
+*/

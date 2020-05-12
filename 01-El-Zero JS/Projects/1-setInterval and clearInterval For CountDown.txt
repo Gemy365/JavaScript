@@ -1,0 +1,65 @@
+var
+	Seconds = 60,	// Start From 1 Minute
+	
+	CountDiv = document.getElementById("countdown"),	// Div ID From HTML
+	
+	CountDown = setInterval(function() { 	// setInterval(Function(){Code..} , MilliSeconds); 
+		
+		SecondPass();	// Invoke The Function
+	
+	}, 1000); // [1000 MilliSeconds = 1 Second]
+
+function SecondPass()	
+{	
+	var Minutes = Math.floor(Seconds / 60),	
+		
+		RemSeconds = Seconds % 60;
+	
+	if (RemSeconds == 0)
+	{
+		RemSeconds = "00";
+	}
+	
+	else if (RemSeconds < 10) 
+	{
+		RemSeconds = "0" + RemSeconds;
+	}
+	
+	if (Minutes == 0)
+	{
+		Minutes = "00";
+	}
+	
+	else if (Minutes < 10) 
+	{
+		Minutes = "0" + Minutes;
+	}
+	
+	CountDiv.innerHTML = Minutes + ":" + RemSeconds;
+	
+	if (Seconds > 0) 
+	{
+		Seconds = Seconds -1 ;	
+	}
+	
+	else
+	{
+		clearInterval(CountDown);	// ÚStop The SetInterval
+
+		CountDiv.innerHTML = "Gemy..Wake Up!"
+	}	
+}
+
+/*
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project Of Js</title>    
+        <meta charset="UTF-8">
+	<div id = "countdown"></div>
+	<script src ="Example.js"> </script>
+    </head>
+    <body bgcolor= "">  
+    </body>
+</html>
+*/

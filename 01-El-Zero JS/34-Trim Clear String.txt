@@ -1,0 +1,22 @@
+var
+	MyName = "		My Name Is Mohamed Gamal Mohamed		",
+	
+	ClearName = MyName.trim(); // Remove All Space In The First And The End String
+	
+console.log(MyName);
+
+console.log(ClearName);
+
+/*
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project Of Js</title>    
+        <meta charset="UTF-8">
+	<div id = "Message"></div>
+	<script src ="Project.js"> </script>
+    </head>
+    <body bgcolor= "">  
+    </body>
+</html>
+*/

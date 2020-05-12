@@ -1,0 +1,31 @@
+function Age(age)
+{
+if(UserAge >= 18)
+{
+	return ("Welcome Your Age Is " + age + " It's More Than 18<br>");
+}
+else
+{
+	return("Sorry Your Age Is " + age + " It's Less Than 18");
+}
+}
+
+var
+	MyDiv = document.getElementById("Message");
+	UserAge = prompt("Please Enter Your Age To Show The Content!");
+
+MyDiv.innerHTML = Age(UserAge);
+
+/*
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project Of Js</title>    
+        <meta charset="UTF-8">
+	<div id = "Message"></div><br>
+	<script src ="Project.js"> </script>
+    </head>
+    <body bgcolor= "">  
+    </body>
+</html>
+*/

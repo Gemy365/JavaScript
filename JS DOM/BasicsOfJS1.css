@@ -1,0 +1,17 @@
+.addStyleToPTag {
+    background-color: #ff00ff;
+    border: 1px black solid;
+}
+
+.purpleClass {
+    background: purple;
+}
+
+.touched {
+    font-size: 25px;
+    color: red;
+}
+
+.clicked {
+    text-decoration: line-through;
+}
